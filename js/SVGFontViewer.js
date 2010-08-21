@@ -260,7 +260,7 @@ SVGFontViewer.GlyphView = function(param) {
 	var bbox = this.bbox.split(" ");
 	this.unit = (Math.abs(bbox[0])+Math.abs(bbox[2]))/this.unitsPerEm;
 	
-	this.parent = (param.parent instanceof HTMLElement)? param.parent : document.getElementById(param.parent);
+	this.parent = (param.parent instanceof Element)? param.parent : document.getElementById(param.parent);
 	this.canvas = document.createElementNS(SVGFontViewer.SVG_NS, 'svg');
 	this.canvas.setAttribute("viewBox", this.bbox);
 	
