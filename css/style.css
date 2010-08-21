@@ -46,6 +46,7 @@ h2 {
 }
 
 #glyphList li dt {
+	width: 76px;
 	font-size: 10px;
 	background-color: #ccc;
 	padding: 2px;
