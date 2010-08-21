@@ -4,7 +4,8 @@
  *
  * Copyright 2010, Yuhta Nakajima<ynakajima@mac.com>
  * Dual licensed under the MIT or GPL Version 2 licenses.
- * http://jquery.org/license
+ * http://svgfontviewer.googlecode.com/hg/GPL-LICENSE.txt
+ * http://svgfontviewer.googlecode.com/hg/MIT-LICENSE.txt
  *
  * Date: 201008220457
  */
