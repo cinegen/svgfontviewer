@@ -1,6 +1,6 @@
 /*!
  * SVGFontViewer v0.4
- * http://jquery.com/
+ * http://svgfontviewer.googlecode.com/
  *
  * Copyright 2010, Yuhta Nakajima<ynakajima@mac.com>
  * Dual licensed under the MIT or GPL Version 2 licenses.
@@ -99,7 +99,7 @@ SVGFontViewer.init = function(param) {
 			guideline: true,
 			outline: true
 		});
-		self.glyph = self.glyphs[62];		
+		self.glyph = self.glyphs[2];		
 		self.glyphView.display(self.glyph);
 		
 		
