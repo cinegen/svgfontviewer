@@ -6,13 +6,16 @@
 	<title>SVG Font Viewer - MplusC</title>	
 	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.1.2/build/cssreset/reset-min.css" />
 	<link rel="stylesheet" type="text/css" href="./css/style.css" />
+	<script type="text/javascript" src="./js/TouchScroller.js"></script>
 	<script type="text/javascript" src="./js/SVGFontViewer.js"></script>
 	<script type="text/javascript">
 		
 		window.onload = function(){
 			
+			//for iPad and iPhone
+			new TouchScroller(document.getElementById('glyphList'));	
 			var param = {
-				svgFontPath: "./fonts/mplus1cblack.svg"	
+				svgFontPath: "../../fonts/mplus1cblack.svg"	
 			};
 			
 			SVGFontViewer.init(param);
